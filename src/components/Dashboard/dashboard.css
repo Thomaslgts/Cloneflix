@@ -1,0 +1,23 @@
+body {
+    color: white;
+}
+
+.dashContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.TopRanking {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.RankingCard {
+    width: 30%;
+}
+
+.RankingCard img {
+    width: 200px;
+}
