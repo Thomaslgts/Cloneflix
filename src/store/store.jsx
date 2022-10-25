@@ -1,7 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import filmSlice from "./film/filmSlice";
+import serieSlice from "./serie/serieSlice";
 
-export default configureStore({
+const store = configureStore({
     reducer: {
-        film: null,
+        film: filmSlice.reducer,
+        serie: serieSlice.reducer,
     },
 })
+
+export default store;
