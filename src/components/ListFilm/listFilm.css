@@ -1,0 +1,47 @@
+.discoverContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.FilterBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.FilterBox button {
+    margin-right: 2rem;
+    margin-top: 10px;
+    min-width: 5rem;
+    padding: 0.5rem 1rem;
+    background: #831010 !important;
+    color: white;
+    border: solid 1px #bb1212 !important;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.FilterBox button:hover {
+    background: #bb1212 !important;
+}
+
+.FilterBox button {
+    background-color: white;
+    border: none;
+}
+
+.DiscoverFilm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.DiscoverCard {
+    width: 30%;
+}
+
+.DiscoverCard img {
+    width: 200px;
+}

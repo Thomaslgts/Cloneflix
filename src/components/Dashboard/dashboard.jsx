@@ -43,7 +43,6 @@ function Dashboard() {
                             <div key={i} className="RankingCard">
                                 <h2>{e.title}</h2>
                                 <img src={imgUrl + e.poster_path} alt="Movie Poster" />
-                                <p>{e.overview}</p>
                             </div>
                         )
                     })}
@@ -57,7 +56,6 @@ function Dashboard() {
                             <div key={i} className="RankingCard">
                                 <h2>{e.name}</h2>
                                 <img src={imgUrl + e.poster_path} alt="Movie Poster" />
-                                <p>{e.overview}</p>
                             </div>
                         )
                     })}
