@@ -89,7 +89,3 @@ function ListSerie() {
 }
 
 export default ListSerie
-
-
-
-
