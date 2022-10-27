@@ -6,6 +6,7 @@ import ListFilm from './components/ListFilm/listFilm';
 import Dashboard from './components/Dashboard/dashboard';
 import ListSerie from './components/ListSerie/listSerie';
 import Favoris from './components/Favoris/favoris';
+import Discover from './components/Discover/discover';
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" exact element={<Dashboard />} />
+            <Route path='/discover' element={<Discover />} />
             <Route path="/listfilm" element={<ListFilm />} />
             <Route path="/listserie" element={<ListSerie />} />
             <Route path="/favoris" element={<Favoris />} />
           </Routes>
         </div>
-      </Router>
-    </div>
+      </Router >
+    </div >
   );
 }
 
